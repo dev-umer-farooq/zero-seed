@@ -1,0 +1,67 @@
+[02:19:56] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[02:20:01] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:20:02] [ServerMain/INFO]: Loaded 1174 recipes
+[02:20:02] [ServerMain/INFO]: Loaded 1271 advancements
+[02:20:03] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[02:20:03] [Server thread/INFO]: Loading properties
+[02:20:03] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[02:20:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:20:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:20:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[02:20:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[02:20:05] [Server thread/INFO]: Default game type: SURVIVAL
+[02:20:05] [Server thread/INFO]: Generating keypair
+[02:20:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:20:05] [Server thread/INFO]: Using default channel type
+[02:20:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:20:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:20:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:20:05] [Server thread/INFO]: Preparing level "world"
+[02:20:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:20:06] [Server thread/INFO]: Time elapsed: 225 ms
+[02:20:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:20:06] [Server thread/INFO]: Time elapsed: 38 ms
+[02:20:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:20:06] [Server thread/INFO]: Time elapsed: 29 ms
+[02:20:06] [Server thread/INFO]: Running delayed init tasks
+[02:20:06] [Server thread/INFO]: Done (2.784s)! For help, type "help"
+[02:20:06] [Server thread/INFO]: Timings Reset
+[02:21:03] [User Authenticator #0/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[02:21:03] [Server thread/INFO]: mumerfarooq joined the game
+[02:21:03] [Server thread/INFO]: mumerfarooq[/127.0.0.1:61956] logged in with entity id 171 at ([world]-24.280009016962765, -0.9986640208878526, -151.19587809073664)
+[02:21:30] [User Authenticator #0/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:21:30] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:21:30] [Server thread/INFO]: madara_uchiha_69[/202.77.138.11:50597] logged in with entity id 326 at ([world]-76.08929949688081, 11.249187078744683, -159.72652026527575)
+[02:27:24] [Server thread/INFO]: madara_uchiha_69 was shot by Skeleton
+[02:29:38] [Server thread/INFO]: mumerfarooq was slain by Zombie
+[03:03:43] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[03:03:43] [Server thread/INFO]: madara_uchiha_69 left the game
+[03:05:15] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
+[03:05:15] [Server thread/INFO]: mumerfarooq left the game
+[03:05:24] [Server thread/INFO]: Stopping server
+[03:05:24] [Server thread/INFO]: Saving players
+[03:05:24] [Server thread/INFO]: Saving worlds
+[03:05:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Saved 20 block chunks, 222 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[03:05:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:05:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:05:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:05:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:05:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:05:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:05:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:05:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[03:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:05:25] [Server thread/INFO]: Flushing Chunk IO
+[03:05:25] [Server thread/INFO]: Closing Thread Pool
+[03:05:25] [Server thread/INFO]: Closing Server
