@@ -1,81 +1,62 @@
-[16:58:44] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[16:58:49] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:58:50] [ServerMain/INFO]: Loaded 1174 recipes
-[16:58:50] [ServerMain/INFO]: Loaded 1271 advancements
-[16:58:51] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[16:58:51] [Server thread/INFO]: Loading properties
-[16:58:51] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
-[16:58:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:58:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:58:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:58:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[16:58:53] [Server thread/INFO]: Default game type: SURVIVAL
-[16:58:53] [Server thread/INFO]: Generating keypair
-[16:58:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:58:53] [Server thread/INFO]: Using default channel type
-[16:58:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:58:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:58:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:58:53] [Server thread/INFO]: Preparing level "world"
-[16:58:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:58:54] [Server thread/INFO]: Time elapsed: 249 ms
-[16:58:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:58:54] [Server thread/INFO]: Time elapsed: 35 ms
-[16:58:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:58:54] [Server thread/INFO]: Time elapsed: 26 ms
-[16:58:54] [Server thread/INFO]: Running delayed init tasks
-[16:58:54] [Server thread/INFO]: Done (2.744s)! For help, type "help"
-[16:58:54] [Server thread/INFO]: Timings Reset
-[16:59:20] [User Authenticator #0/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
-[16:59:20] [Server thread/INFO]: mumerfarooq joined the game
-[16:59:20] [Server thread/INFO]: mumerfarooq[/127.0.0.1:51563] logged in with entity id 197 at ([world]15.300000011920929, 69.0, -126.99638439156814)
-[17:00:11] [User Authenticator #0/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
-[17:00:12] [Server thread/INFO]: madara_uchiha_69 joined the game
-[17:00:12] [Server thread/INFO]: madara_uchiha_69[/202.77.138.195:55490] logged in with entity id 366 at ([world]-5.10339305566669, 70.5625, -137.13331267308487)
-[17:02:43] [Async Chat Thread - #2/INFO]: <mumerfarooq> ruk mene wapis krdeu the pr abhe new lagai tw wohi hogi mn dekhke command wapis krta
-[17:03:01] [Async Chat Thread - #1/INFO]: <madara_uchiha_69> ok
-[17:07:50] [Server thread/INFO]: mumerfarooq has made the advancement [Ice Bucket Challenge]
-[17:08:35] [Server thread/INFO]: madara_uchiha_69 has made the advancement [Ice Bucket Challenge]
-[17:10:46] [Server thread/INFO]: mumerfarooq issued server command: /gamerule randomTickSpeed 6
-[17:10:46] [Server thread/INFO]: [mumerfarooq: Gamerule randomTickSpeed is now set to: 6]
-[17:10:59] [Server thread/INFO]: mumerfarooq issued server command: /gamerule randomTickSpeed 18
-[17:10:59] [Server thread/INFO]: [mumerfarooq: Gamerule randomTickSpeed is now set to: 18]
-[17:45:28] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
-[17:45:28] [Server thread/INFO]: mumerfarooq left the game
-[17:45:51] [Async Chat Thread - #3/INFO]: <madara_uchiha_69> wwww
-[17:47:59] [User Authenticator #1/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
-[17:47:59] [Server thread/INFO]: mumerfarooq joined the game
-[17:47:59] [Server thread/INFO]: mumerfarooq[/127.0.0.1:61344] logged in with entity id 7141 at ([world]9.718853806855378, 68.0, -107.21406746220009)
-[17:50:00] [Server thread/INFO]: mumerfarooq has made the advancement [We Need to Go Deeper]
-[17:50:06] [Server thread/INFO]: madara_uchiha_69 has made the advancement [We Need to Go Deeper]
-[17:54:31] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
-[17:54:31] [Server thread/INFO]: madara_uchiha_69 left the game
-[17:55:16] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
-[17:55:16] [Server thread/INFO]: mumerfarooq left the game
-[17:55:19] [Server thread/INFO]: Stopping server
-[17:55:19] [Server thread/INFO]: Saving players
-[17:55:19] [Server thread/INFO]: Saving worlds
-[17:55:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Saved 80 block chunks, 267 entity chunks, 0 poi chunks in world 'world' in 0.14s
-[17:55:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:55:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:55:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:55:20] [Server thread/INFO]: [ChunkHolderManager] Saved 1411 block chunks, 88 entity chunks, 0 poi chunks in world 'world_nether' in 0.59s
-[17:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:55:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:55:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:55:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:55:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:55:20] [Server thread/INFO]: Flushing Chunk IO
-[17:55:20] [Server thread/INFO]: Closing Thread Pool
-[17:55:20] [Server thread/INFO]: Closing Server
+[00:09:50] [User Authenticator #5/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[00:09:50] [Server thread/INFO]: mumerfarooq joined the game
+[00:09:50] [Server thread/INFO]: mumerfarooq[/127.0.0.1:53379] logged in with entity id 8749 at ([world]20.27511224570631, 70.0, -147.10243549336784)
+[00:15:31] [User Authenticator #6/INFO]: UUID of player Mehar_Usama is 958cdbe7-92c0-483d-9496-d32546426ba9
+[00:15:32] [Server thread/INFO]: Mehar_Usama joined the game
+[00:15:32] [Server thread/INFO]: Mehar_Usama[/182.178.154.43:50505] logged in with entity id 9948 at ([world]-0.8322993524262815, 76.0, -38.43100873223383)
+[00:16:41] [Async Chat Thread - #9/INFO]: <Mehar_Usama> hi buddies . . .
+[00:16:59] [Async Chat Thread - #8/INFO]: <mumerfarooq> discord aja
+[00:17:05] [Async Chat Thread - #9/INFO]: <Mehar_Usama> joining
+[00:18:31] [Async Chat Thread - #10/INFO]: <Mehar_Usama> So jao bacho
+[00:18:35] [Async Chat Thread - #10/INFO]: <Mehar_Usama> raat ho gae hai . . .
+[00:18:36] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[00:18:36] [Server thread/INFO]: madara_uchiha_69 left the game
+[00:18:40] [Server thread/INFO]: Mehar_Usama lost connection: Disconnected
+[00:18:40] [Server thread/INFO]: Mehar_Usama left the game
+[00:19:24] [User Authenticator #7/INFO]: UUID of player Mehar_Usama is 958cdbe7-92c0-483d-9496-d32546426ba9
+[00:19:24] [Server thread/INFO]: Mehar_Usama joined the game
+[00:19:24] [Server thread/INFO]: Mehar_Usama[/182.178.154.43:50529] logged in with entity id 10922 at ([world]-7.297312938998163, 74.0, -52.573172952376915)
+[00:19:35] [User Authenticator #7/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[00:19:35] [Server thread/INFO]: madara_uchiha_69 joined the game
+[00:19:35] [Server thread/INFO]: madara_uchiha_69[/202.77.138.195:56766] logged in with entity id 10967 at ([world]-59.48628985774844, -41.0, -281.5530556854691)
+[00:20:32] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[00:20:32] [Server thread/INFO]: madara_uchiha_69 left the game
+[00:20:50] [User Authenticator #8/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[00:20:50] [Server thread/INFO]: madara_uchiha_69 joined the game
+[00:20:50] [Server thread/INFO]: madara_uchiha_69[/202.77.138.195:56786] logged in with entity id 11393 at ([world]-69.49750733983623, -41.0, -251.4246894060989)
+[00:50:45] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[00:50:45] [Server thread/INFO]: madara_uchiha_69 left the game
+[00:57:32] [Server thread/INFO]: Mehar_Usama has made the advancement [A Seedy Place]
+[01:49:23] [Server thread/INFO]: Villager EntityVillager['Farmer'/29828, uuid='042d8be7-bdb4-4b08-b2ab-0a9634c0713f', l='ServerLevel[world_nether]', x=33.50, y=78.06, z=33.09, cpos=[2, 2], tl=68424, v=true] died, message: 'Farmer suffocated in a wall'
+[01:49:51] [Async Chat Thread - #14/INFO]: <Mehar_Usama> Okay buddies . . . ta ta by by
+[01:49:53] [Server thread/INFO]: Villager EntityVillager['Farmer'/29808, uuid='34d6c1ba-d475-4a35-ae8c-e2bd4cc3120d', l='ServerLevel[world_nether]', x=8.88, y=78.00, z=-13.50, cpos=[0, -1], tl=67959, v=true] died, message: 'Farmer suffocated in a wall'
+[01:49:57] [Async Chat Thread - #13/INFO]: <Mehar_Usama> agla farm kal sahi ab
+[01:50:09] [Server thread/INFO]: Mehar_Usama lost connection: Disconnected
+[01:50:09] [Server thread/INFO]: Mehar_Usama left the game
+[01:51:20] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
+[01:51:20] [Server thread/INFO]: mumerfarooq left the game
+[01:51:30] [Server thread/INFO]: Stopping server
+[01:51:30] [Server thread/INFO]: Saving players
+[01:51:30] [Server thread/INFO]: Saving worlds
+[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 63 block chunks, 398 entity chunks, 7 poi chunks in world 'world' in 0.16s
+[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 1216 block chunks, 62 entity chunks, 0 poi chunks in world 'world_nether' in 0.42s
+[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:51:30] [Server thread/INFO]: Flushing Chunk IO
+[01:51:30] [Server thread/INFO]: Closing Thread Pool
+[01:51:30] [Server thread/INFO]: Closing Server
