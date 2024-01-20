@@ -1,62 +1,153 @@
-[00:09:50] [User Authenticator #5/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
-[00:09:50] [Server thread/INFO]: mumerfarooq joined the game
-[00:09:50] [Server thread/INFO]: mumerfarooq[/127.0.0.1:53379] logged in with entity id 8749 at ([world]20.27511224570631, 70.0, -147.10243549336784)
-[00:15:31] [User Authenticator #6/INFO]: UUID of player Mehar_Usama is 958cdbe7-92c0-483d-9496-d32546426ba9
-[00:15:32] [Server thread/INFO]: Mehar_Usama joined the game
-[00:15:32] [Server thread/INFO]: Mehar_Usama[/182.178.154.43:50505] logged in with entity id 9948 at ([world]-0.8322993524262815, 76.0, -38.43100873223383)
-[00:16:41] [Async Chat Thread - #9/INFO]: <Mehar_Usama> hi buddies . . .
-[00:16:59] [Async Chat Thread - #8/INFO]: <mumerfarooq> discord aja
-[00:17:05] [Async Chat Thread - #9/INFO]: <Mehar_Usama> joining
-[00:18:31] [Async Chat Thread - #10/INFO]: <Mehar_Usama> So jao bacho
-[00:18:35] [Async Chat Thread - #10/INFO]: <Mehar_Usama> raat ho gae hai . . .
-[00:18:36] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
-[00:18:36] [Server thread/INFO]: madara_uchiha_69 left the game
-[00:18:40] [Server thread/INFO]: Mehar_Usama lost connection: Disconnected
-[00:18:40] [Server thread/INFO]: Mehar_Usama left the game
-[00:19:24] [User Authenticator #7/INFO]: UUID of player Mehar_Usama is 958cdbe7-92c0-483d-9496-d32546426ba9
-[00:19:24] [Server thread/INFO]: Mehar_Usama joined the game
-[00:19:24] [Server thread/INFO]: Mehar_Usama[/182.178.154.43:50529] logged in with entity id 10922 at ([world]-7.297312938998163, 74.0, -52.573172952376915)
-[00:19:35] [User Authenticator #7/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
-[00:19:35] [Server thread/INFO]: madara_uchiha_69 joined the game
-[00:19:35] [Server thread/INFO]: madara_uchiha_69[/202.77.138.195:56766] logged in with entity id 10967 at ([world]-59.48628985774844, -41.0, -281.5530556854691)
-[00:20:32] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
-[00:20:32] [Server thread/INFO]: madara_uchiha_69 left the game
-[00:20:50] [User Authenticator #8/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
-[00:20:50] [Server thread/INFO]: madara_uchiha_69 joined the game
-[00:20:50] [Server thread/INFO]: madara_uchiha_69[/202.77.138.195:56786] logged in with entity id 11393 at ([world]-69.49750733983623, -41.0, -251.4246894060989)
-[00:50:45] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
-[00:50:45] [Server thread/INFO]: madara_uchiha_69 left the game
-[00:57:32] [Server thread/INFO]: Mehar_Usama has made the advancement [A Seedy Place]
-[01:49:23] [Server thread/INFO]: Villager EntityVillager['Farmer'/29828, uuid='042d8be7-bdb4-4b08-b2ab-0a9634c0713f', l='ServerLevel[world_nether]', x=33.50, y=78.06, z=33.09, cpos=[2, 2], tl=68424, v=true] died, message: 'Farmer suffocated in a wall'
-[01:49:51] [Async Chat Thread - #14/INFO]: <Mehar_Usama> Okay buddies . . . ta ta by by
-[01:49:53] [Server thread/INFO]: Villager EntityVillager['Farmer'/29808, uuid='34d6c1ba-d475-4a35-ae8c-e2bd4cc3120d', l='ServerLevel[world_nether]', x=8.88, y=78.00, z=-13.50, cpos=[0, -1], tl=67959, v=true] died, message: 'Farmer suffocated in a wall'
-[01:49:57] [Async Chat Thread - #13/INFO]: <Mehar_Usama> agla farm kal sahi ab
-[01:50:09] [Server thread/INFO]: Mehar_Usama lost connection: Disconnected
-[01:50:09] [Server thread/INFO]: Mehar_Usama left the game
-[01:51:20] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
-[01:51:20] [Server thread/INFO]: mumerfarooq left the game
-[01:51:30] [Server thread/INFO]: Stopping server
-[01:51:30] [Server thread/INFO]: Saving players
-[01:51:30] [Server thread/INFO]: Saving worlds
-[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 63 block chunks, 398 entity chunks, 7 poi chunks in world 'world' in 0.16s
-[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 1216 block chunks, 62 entity chunks, 0 poi chunks in world 'world_nether' in 0.42s
-[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:51:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:51:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:51:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:51:30] [Server thread/INFO]: Flushing Chunk IO
-[01:51:30] [Server thread/INFO]: Closing Thread Pool
-[01:51:30] [Server thread/INFO]: Closing Server
+[01:27:37] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:27:39] [ServerMain/INFO]: Loaded 1174 recipes
+[01:27:39] [ServerMain/INFO]: Loaded 1271 advancements
+[01:27:39] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[01:27:39] [Server thread/INFO]: Loading properties
+[01:27:40] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[01:27:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:27:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:27:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[01:27:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[01:27:40] [Server thread/INFO]: Default game type: SURVIVAL
+[01:27:40] [Server thread/INFO]: Generating keypair
+[01:27:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:27:41] [Server thread/INFO]: Using default channel type
+[01:27:41] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:27:41] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:27:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:27:41] [Server thread/INFO]: Preparing level "world"
+[01:27:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:27:41] [Server thread/INFO]: Time elapsed: 215 ms
+[01:27:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:27:41] [Server thread/INFO]: Time elapsed: 32 ms
+[01:27:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:27:41] [Server thread/INFO]: Time elapsed: 25 ms
+[01:27:42] [Server thread/INFO]: Running delayed init tasks
+[01:27:42] [Server thread/INFO]: Done (2.174s)! For help, type "help"
+[01:27:42] [Server thread/INFO]: Timings Reset
+[01:32:09] [User Authenticator #0/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[01:32:10] [Server thread/INFO]: madara_uchiha_69 joined the game
+[01:32:10] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:61792] logged in with entity id 307 at ([world]-4.45201900860886, 70.0, -136.3447339444799)
+[01:42:08] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[01:42:08] [Server thread/INFO]: madara_uchiha_69 left the game
+[01:42:14] [User Authenticator #1/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[01:42:14] [Server thread/INFO]: madara_uchiha_69 joined the game
+[01:42:14] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:61963] logged in with entity id 1610 at ([world]50.15277443656883, 63.71875, -111.87480281242684)
+[01:42:20] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[01:42:20] [Server thread/INFO]: madara_uchiha_69 left the game
+[01:42:26] [User Authenticator #1/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[01:42:26] [Server thread/INFO]: madara_uchiha_69 joined the game
+[01:42:26] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:61971] logged in with entity id 1622 at ([world]51.966274401774974, 63.71875, -113.87106451577073)
+[01:50:30] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[01:50:30] [Server thread/INFO]: madara_uchiha_69 left the game
+[01:52:14] [User Authenticator #2/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[01:52:14] [Server thread/INFO]: madara_uchiha_69 joined the game
+[01:52:14] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62161] logged in with entity id 2701 at ([world]7.503013922070731, 70.0, -144.3979420873041)
+[01:57:37] [User Authenticator #3/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[01:57:38] [Server thread/INFO]: mumerfarooq joined the game
+[01:57:38] [Server thread/INFO]: mumerfarooq[/[0:0:0:0:0:0:0:1]:62238] logged in with entity id 3360 at ([world]18.78829566473079, 70.0, -149.63698560161177)
+[02:00:18] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
+[02:00:18] [Server thread/INFO]: mumerfarooq left the game
+[02:00:36] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:00:36] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:01:28] [User Authenticator #4/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:01:28] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:01:28] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62304] logged in with entity id 3716 at ([world]19.94220249789629, 70.0, -157.62154710384047)
+[02:03:27] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:03:27] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:03:55] [User Authenticator #5/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:03:56] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:03:56] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62362] logged in with entity id 3959 at ([world]8.710774124302642, 72.0, -154.43086193727913)
+[02:04:54] [User Authenticator #5/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[02:04:54] [Server thread/INFO]: mumerfarooq joined the game
+[02:04:54] [Server thread/INFO]: mumerfarooq[/[0:0:0:0:0:0:0:1]:62386] logged in with entity id 4072 at ([world]19.991407623764175, 70.0, -139.4281151519755)
+[02:05:49] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:05:49] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:12:39] [User Authenticator #6/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:12:39] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:12:39] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62443] logged in with entity id 5210 at ([world]13.996581154511455, 70.0, -126.72712318891568)
+[02:14:48] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:14:48] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:15:17] [User Authenticator #7/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:15:17] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:15:17] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62490] logged in with entity id 5629 at ([world]11.662345579300565, 70.0, -143.17762686467367)
+[02:18:08] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:18:08] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:18:43] [User Authenticator #8/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:18:43] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:18:43] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62549] logged in with entity id 6059 at ([world]18.30000001192093, 70.0, -128.2037421747229)
+[02:19:24] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:19:25] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:21:24] [User Authenticator #9/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:21:24] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:21:24] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62607] logged in with entity id 6521 at ([world]17.81002562147568, 70.0, -139.4300302152907)
+[02:22:56] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:22:56] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:26:11] [User Authenticator #10/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:26:11] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:26:11] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:62666] logged in with entity id 7666 at ([world]20.471951218909158, 70.0, -140.58522375096618)
+[02:42:08] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:42:08] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:42:15] [User Authenticator #11/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:42:15] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:42:15] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:64573] logged in with entity id 10700 at ([world]-29.32458625387027, 16.0, -152.94571351906941)
+[02:53:02] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[02:53:02] [Server thread/INFO]: madara_uchiha_69 left the game
+[02:53:07] [User Authenticator #12/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[02:53:07] [Server thread/INFO]: madara_uchiha_69 joined the game
+[02:53:07] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:65235] logged in with entity id 12045 at ([world]25.05506319811414, -16.0, -201.63718258581534)
+[03:03:58] [Async Chat Thread - #14/INFO]: <madara_uchiha_69> soja
+[03:03:59] [Async Chat Thread - #13/INFO]: <madara_uchiha_69> soja
+[03:04:00] [Async Chat Thread - #14/INFO]: <madara_uchiha_69> soj
+[03:23:05] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
+[03:23:05] [Server thread/INFO]: mumerfarooq left the game
+[03:25:25] [Server thread/INFO]: Villager EntityVillager['Butcher'/208, uuid='b3691e19-ef47-4037-a0b3-c725febc3879', l='ServerLevel[world]', x=39.29, y=-19.08, z=-96.71, cpos=[2, -7], tl=238148, v=true] died, message: 'Butcher was slain by Zombie'
+[03:32:51] [User Authenticator #13/INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[03:32:52] [Server thread/INFO]: mumerfarooq joined the game
+[03:32:52] [Server thread/INFO]: mumerfarooq[/[0:0:0:0:0:0:0:1]:59214] logged in with entity id 18149 at ([world]9.451353123198576, 70.0, -133.8639312168856)
+[04:06:00] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[04:06:00] [Server thread/INFO]: madara_uchiha_69 left the game
+[04:14:10] [User Authenticator #14/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[04:14:10] [Server thread/INFO]: madara_uchiha_69 joined the game
+[04:14:10] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:59800] logged in with entity id 24082 at ([world]10.397491477477447, 68.0, -159.88702098461243)
+[04:21:47] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[04:21:47] [Server thread/INFO]: madara_uchiha_69 left the game
+[04:21:53] [User Authenticator #15/INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[04:21:53] [Server thread/INFO]: madara_uchiha_69 joined the game
+[04:21:53] [Server thread/INFO]: madara_uchiha_69[/127.0.0.1:59968] logged in with entity id 25254 at ([world]-40.62217973140013, -58.0, -157.69148569253886)
+[04:57:17] [Server thread/INFO]: madara_uchiha_69 has made the advancement [Best Friends Forever]
+[05:06:07] [Server thread/WARN]: Horse (vehicle of mumerfarooq) moved wrongly! 0.31613872660966535
+[05:06:07] [Server thread/WARN]: Horse (vehicle of mumerfarooq) moved wrongly! 0.8090868063973176
+[05:06:07] [Server thread/WARN]: Horse (vehicle of mumerfarooq) moved wrongly! 1.0
+[05:15:52] [Server thread/INFO]: mumerfarooq lost connection: Disconnected
+[05:15:52] [Server thread/INFO]: mumerfarooq left the game
+[05:41:17] [Server thread/INFO]: madara_uchiha_69 has made the advancement [Enchanter]
+[05:48:38] [Server thread/INFO]: madara_uchiha_69 lost connection: Disconnected
+[05:48:38] [Server thread/INFO]: madara_uchiha_69 left the game
+[05:51:35] [Server thread/INFO]: Stopping server
+[05:51:35] [Server thread/INFO]: Saving players
+[05:51:35] [Server thread/INFO]: Saving worlds
+[05:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saved 61 block chunks, 321 entity chunks, 2 poi chunks in world 'world' in 0.15s
+[05:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 59 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[05:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:51:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[05:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:51:35] [Server thread/INFO]: Flushing Chunk IO
+[05:51:35] [Server thread/INFO]: Closing Thread Pool
+[05:51:35] [Server thread/INFO]: Closing Server
