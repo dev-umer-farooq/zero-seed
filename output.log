@@ -1,0 +1,773 @@
+nohup: ignoring input
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.9+9-Ubuntu-122.04) Host: Linux 5.15.0-92-generic (amd64)
+Loading libraries, please wait...
+2024-01-30 22:27:10,015 ServerMain WARN Advanced terminal features are not available in this environment
+[22:27:14 INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:27:16 INFO]: Loaded 1174 recipes
+[22:27:16 INFO]: Loaded 1271 advancements
+[22:27:16 INFO]: Starting minecraft server version 1.20.2
+[22:27:16 WARN]: ****************************
+[22:27:16 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[22:27:16 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[22:27:16 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[22:27:16 WARN]: ****************************
+[22:27:16 INFO]: Loading properties
+[22:27:16 INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[22:27:16 INFO]: Server Ping Player Sample Count: 12
+[22:27:16 INFO]: Using 4 threads for Netty based IO
+[22:27:17 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[22:27:17 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:27:17 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.2.jar:git-Paper-318]
+[22:27:17 INFO]: Default game type: SURVIVAL
+[22:27:17 INFO]: Generating keypair
+[22:27:17 INFO]: Starting Minecraft server on *:25565
+[22:27:17 INFO]: Using epoll channel type
+[22:27:17 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:27:17 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[22:27:17 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:27:17 INFO]: Preparing level "world"
+[22:27:18 INFO]: Preparing start region for dimension minecraft:overworld
+[22:27:18 INFO]: Time elapsed: 271 ms
+[22:27:18 INFO]: Preparing start region for dimension minecraft:the_nether
+[22:27:18 INFO]: Time elapsed: 45 ms
+[22:27:18 INFO]: Preparing start region for dimension minecraft:the_end
+[22:27:18 INFO]: Time elapsed: 40 ms
+[22:27:18 INFO]: Running delayed init tasks
+[22:27:18 INFO]: Done (2.089s)! For help, type "help"
+[22:27:18 INFO]: Timings Reset
+[22:29:33 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[22:29:33 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[22:29:34 INFO]: mumerfarooq[/139.135.52.212:14259] logged in with entity id 232 at ([world]-47.71639233880999, 65.0, -250.94092142362487)
+[22:42:57 INFO]: mumerfarooq issued server command: /gamerule randomTickSpeed 100
+[22:42:57 INFO]: [3m[38;5;7m[mumerfarooq: Gamerule randomTickSpeed is now set to: 100][0m
+[22:43:47 INFO]: mumerfarooq issued server command: /gamerule randomTickSpeed 18
+[22:43:47 INFO]: [3m[38;5;7m[mumerfarooq: Gamerule randomTickSpeed is now set to: 18][0m
+[22:48:00 INFO]: mumerfarooq issued server command: /time add 1d
+[22:48:00 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 2587][0m
+[22:48:28 INFO]: mumerfarooq issued server command: /time add 120
+[22:48:28 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 3279][0m
+[22:55:57 INFO]: mumerfarooq issued server command: /xp add 50
+[22:56:18 INFO]: mumerfarooq issued server command: /whitelist on
+[22:56:18 INFO]: [3m[38;5;7m[mumerfarooq: Whitelist is now turned on][0m
+[22:56:28 INFO]: mumerfarooq issued server command: /whitelist add usama_sadiq
+[22:56:34 INFO]: mumerfarooq issued server command: /whitelist add usama_sadik
+[22:56:51 INFO]: mumerfarooq issued server command: /whitelist add mumerfarooq
+[22:56:51 INFO]: [3m[38;5;7m[mumerfarooq: Added mumerfarooq to the whitelist][0m
+[22:56:59 INFO]: mumerfarooq issued server command: /whitelist add Usama_sadiq
+[22:57:06 INFO]: mumerfarooq issued server command: /whitelist add Usama_Sadiq
+[22:57:35 INFO]: mumerfarooq issued server command: /xp add levels 10
+[22:57:44 INFO]: mumerfarooq issued server command: /xp add levels 10
+[22:58:00 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 10
+[22:58:00 INFO]: [3m[38;5;7m[mumerfarooq: Gave 10 experience points to mumerfarooq][0m
+[22:58:06 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 50
+[22:58:06 INFO]: [3m[38;5;7m[mumerfarooq: Gave 50 experience points to mumerfarooq][0m
+[22:58:15 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 300
+[22:58:15 INFO]: [3m[38;5;7m[mumerfarooq: Gave 300 experience points to mumerfarooq][0m
+[22:58:19 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 500
+[22:58:19 INFO]: [3m[38;5;7m[mumerfarooq: Gave 500 experience points to mumerfarooq][0m
+[22:58:23 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[22:58:23 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[23:05:06 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:05:06 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:05:52 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:05:52 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:20:03 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:20:03 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:20:15 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:20:15 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:22:17 INFO]: Named entity EntityZombie['my zombie'/53, uuid='e3ab264d-1fa6-4d4a-8c75-dc9338722871', l='ServerLevel[world]', x=-16.58, y=60.49, z=-122.31, cpos=[-2, -8], tl=2414115, v=true] died: my zombie was slain by Iron Golem
+[23:23:13 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:23:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:24:04 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:24:04 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:26:17 INFO]: mumerfarooq has made the advancement [38;5;10m[Hidden in the Depths][0m
+[23:39:52 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:39:52 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:40:07 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:40:07 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:40:17 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:40:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:40:50 INFO]: mumerfarooq issued server command: /weatherclear
+[23:40:53 INFO]: mumerfarooq issued server command: /weather clear
+[23:40:53 INFO]: [3m[38;5;7m[mumerfarooq: Set the weather to clear][0m
+[23:41:16 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:41:16 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:41:32 INFO]: mumerfarooq issued server command: /gamemode creative
+[23:41:32 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[23:43:21 INFO]: mumerfarooq issued server command: /gamemode survival
+[23:43:21 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[23:54:32 INFO]: mumerfarooq lost connection: Disconnected
+[23:54:32 INFO]: [38;5;11mmumerfarooq left the game[0m
+[23:56:16 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[23:56:17 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[23:56:17 INFO]: mumerfarooq[/139.135.52.212:56680] logged in with entity id 13371 at ([world]7.398752318285832, 67.0, -164.4360915405592)
+[23:56:20 INFO]: mumerfarooq issued server command: /seed
+[23:56:33 INFO]: mumerfarooq lost connection: Disconnected
+[23:56:33 INFO]: [38;5;11mmumerfarooq left the game[0m
+[23:56:41 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[23:56:41 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[23:56:41 INFO]: mumerfarooq[/139.135.52.212:49709] logged in with entity id 13403 at ([world]7.398752318285832, 67.0, -164.4360915405592)
+[00:04:05 INFO]: mumerfarooq has made the advancement [38;5;10m[Those Were the Days][0m
+[00:09:28 INFO]: mumerfarooq has made the advancement [38;5;10m[War Pigs][0m
+[00:09:33 INFO]: mumerfarooq has made the advancement [38;5;10m[Who is Cutting Onions?][0m
+[00:13:52 INFO]: mumerfarooq was slain by Piglin Brute
+[00:14:22 INFO]: mumerfarooq issued server command: /gamemode spectator
+[00:14:22 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[00:15:29 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:15:29 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:15:31 INFO]: mumerfarooq issued server command: /gamemode spectator
+[00:15:31 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[00:15:35 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:15:35 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:17:21 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:17:21 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:18:17 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:18:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:18:27 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:18:27 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:32:45 INFO]: mumerfarooq has completed the challenge [38;5;5m[Return to Sender][0m
+[00:37:02 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:37:02 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:37:13 INFO]: mumerfarooq issued server command: /gamemode spectator
+[00:37:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[00:37:17 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:37:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:37:20 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:37:20 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:37:50 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:37:50 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:38:00 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:38:00 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:40:57 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:40:57 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:41:16 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:41:16 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:42:18 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:18 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:42:21 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:21 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:42:24 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:24 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:42:26 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:26 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:42:28 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:28 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:42:29 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[00:42:29 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[00:47:07 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:47:07 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:47:10 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:47:10 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:47:12 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:47:12 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:48:49 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:48:49 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:48:51 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:48:51 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:50:39 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 5000
+[00:50:39 INFO]: [3m[38;5;7m[mumerfarooq: Gave 5000 experience points to mumerfarooq][0m
+[00:54:09 INFO]: mumerfarooq issued server command: /gamemode creative
+[00:54:09 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[00:54:17 INFO]: mumerfarooq issued server command: /gamemode survival
+[00:54:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[00:54:55 INFO]: mumerfarooq has completed the challenge [38;5;5m[Cover Me in Debris][0m
+[00:58:51 INFO]: mumerfarooq issued server command: /gamerule randomTickSpeed 6
+[00:58:51 INFO]: [3m[38;5;7m[mumerfarooq: Gamerule randomTickSpeed is now set to: 6][0m
+[01:08:17 INFO]: mumerfarooq issued server command: /gamemode creative
+[01:08:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[01:08:31 INFO]: mumerfarooq issued server command: /gamemode survival
+[01:08:31 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[01:09:27 INFO]: mumerfarooq issued server command: /gamemode creative
+[01:09:27 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[01:20:26 INFO]: mumerfarooq issued server command: /gamemode survival
+[01:20:26 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[01:21:28 INFO]: mumerfarooq issued server command: /gamemode creative
+[01:21:28 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[01:22:10 WARN]: Player mumerfarooq just tried to change non-editable sign
+[01:22:45 INFO]: mumerfarooq issued server command: /gamemode survival
+[01:22:45 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[01:23:11 INFO]: mumerfarooq issued server command: /gamemode creative
+[01:23:11 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[01:23:38 INFO]: mumerfarooq issued server command: /gamemode survival
+[01:23:38 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[01:24:19 INFO]: mumerfarooq issued server command: /gamemode creative
+[01:24:19 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[01:24:32 INFO]: mumerfarooq issued server command: /gamemode survival
+[01:24:32 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[01:28:00 INFO]: mumerfarooq lost connection: Disconnected
+[01:28:00 INFO]: [38;5;11mmumerfarooq left the game[0m
+[03:47:30 INFO]: ServerSeeker_net (/109.123.240.84:58818) lost connection: Disconnected
+[18:14:53 WARN]: Can't keep up! Is the server overloaded? Running 5321ms or 106 ticks behind
+[08:03:02 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[08:03:03 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[08:03:03 INFO]: mumerfarooq[/139.135.52.212:28675] logged in with entity id 24362 at ([world]-34.03871270044893, 65.0, -249.3399162954865)
+[08:35:44 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-318 (MC: 1.20.2) ---
+[08:35:44 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[08:35:44 ERROR]: ------------------------------
+[08:35:44 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[08:35:45 ERROR]: ------------------------------
+[08:35:45 ERROR]: Current Thread: Server thread
+[08:35:45 ERROR]: 	PID: 26 | Suspended: false | Native: false | State: WAITING
+[08:35:45 ERROR]: 	Stack:
+[08:35:45 ERROR]: 		java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:938)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.ReentrantLock$Sync.lock(ReentrantLock.java:153)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.ReentrantLock.lock(ReentrantLock.java:322)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread$ChunkDataController.computeForRegionFileIfLoaded(RegionFileIOThread.java:1156)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.doesRegionFileExist(RegionFileIOThread.java:827)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.loadDataAsyncInternal(RegionFileIOThread.java:897)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.loadDataAsync(RegionFileIOThread.java:807)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask$LoadDataFromDiskTask.schedule(GenericDataLoadTask.java:635)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask$LoadDataFromDiskTask.schedule(GenericDataLoadTask.java:623)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask.scheduleNow(GenericDataLoadTask.java:179)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask.schedule(GenericDataLoadTask.java:172)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkLoadTask.schedule(ChunkLoadTask.java:122)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkTaskScheduler.scheduleChunkLoad(ChunkTaskScheduler.java:565)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.updateQueues(RegionizedPlayerChunkLoader.java:747)
+[08:35:45 ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.tick(RegionizedPlayerChunkLoader.java:243)
+[08:35:45 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:497)
+[08:35:45 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:855)
+[08:35:45 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1548)
+[08:35:45 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[08:35:45 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1379)
+[08:35:45 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156)
+[08:35:45 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[08:35:45 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$5237/0x00007f31d4a33470.run(Unknown Source)
+[08:35:45 ERROR]: 		java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+[08:35:45 ERROR]: ------------------------------
+[08:35:45 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[08:35:45 ERROR]: ------------------------------
+[08:35:49 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-318 (MC: 1.20.2) ---
+[08:35:49 ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[08:35:49 ERROR]: ------------------------------
+[08:35:49 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[08:35:49 ERROR]: ------------------------------
+[08:35:49 ERROR]: Current Thread: Server thread
+[08:35:49 ERROR]: 	PID: 26 | Suspended: false | Native: false | State: WAITING
+[08:35:49 ERROR]: 	Stack:
+[08:35:49 ERROR]: 		java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:938)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.ReentrantLock$Sync.lock(ReentrantLock.java:153)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.util.concurrent.locks.ReentrantLock.lock(ReentrantLock.java:322)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread$ChunkDataController.computeForRegionFileIfLoaded(RegionFileIOThread.java:1156)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.doesRegionFileExist(RegionFileIOThread.java:827)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.loadDataAsyncInternal(RegionFileIOThread.java:897)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.io.RegionFileIOThread.loadDataAsync(RegionFileIOThread.java:807)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask$LoadDataFromDiskTask.schedule(GenericDataLoadTask.java:635)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask$LoadDataFromDiskTask.schedule(GenericDataLoadTask.java:623)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask.scheduleNow(GenericDataLoadTask.java:179)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask.schedule(GenericDataLoadTask.java:172)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkLoadTask.schedule(ChunkLoadTask.java:122)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkTaskScheduler.scheduleChunkLoad(ChunkTaskScheduler.java:565)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.updateQueues(RegionizedPlayerChunkLoader.java:747)
+[08:35:49 ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.tick(RegionizedPlayerChunkLoader.java:243)
+[08:35:49 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:497)
+[08:35:49 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:855)
+[08:35:49 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1548)
+[08:35:49 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[08:35:49 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1379)
+[08:35:49 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1156)
+[08:35:49 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[08:35:49 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$5237/0x00007f31d4a33470.run(Unknown Source)
+[08:35:49 ERROR]: 		java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+[08:35:49 ERROR]: ------------------------------
+[08:35:49 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[08:35:49 ERROR]: ------------------------------
+[08:35:53 WARN]: Can't keep up! Is the server overloaded? Running 18209ms or 364 ticks behind
+[08:35:53 WARN]: mumerfarooq moved too quickly! -15.620789312603591,-1.5800000131130219,6.462811852654397
+[08:36:02 WARN]: mumerfarooq moved too quickly! -3.5856861387376284,3.9893499858739716,-8.586038939036882
+[09:43:57 INFO]: mumerfarooq issued server command: /xp add mumerfarooq 1000
+[09:43:57 INFO]: [3m[38;5;7m[mumerfarooq: Gave 1000 experience points to mumerfarooq][0m
+[09:53:38 INFO]: mumerfarooq has completed the challenge [38;5;5m[Serious Dedication][0m
+[09:56:20 INFO]: mumerfarooq lost connection: Disconnected
+[09:56:20 INFO]: [38;5;11mmumerfarooq left the game[0m
+[09:57:40 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[09:57:40 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[09:57:40 INFO]: mumerfarooq[/139.135.52.212:53960] logged in with entity id 39126 at ([world]-52.36926186550168, 63.0, -244.5416914983015)
+[10:25:50 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:25:50 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:26:12 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:26:12 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:26:23 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:26:23 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:29:44 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:29:44 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:30:04 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:30:04 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:32:29 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:32:29 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:32:43 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:32:43 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:32:46 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:32:46 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:34:23 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:34:23 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:34:25 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:34:25 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:36:32 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:36:32 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:36:59 INFO]: mumerfarooq issued server command: /fill -75 67 -227
+[10:37:12 INFO]: mumerfarooq issued server command: /fill -75 67 -227 -65 67 -233 minecraft:black_stained_glass
+[10:37:12 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 57 block(s)][0m
+[10:37:48 INFO]: mumerfarooq issued server command: /fill -75 67 -227 -65 67 -233 trap
+[10:37:55 INFO]: mumerfarooq issued server command: /fill -75 67 -227 -65 67 -233 minecraft:dark_oak_trapdoor
+[10:37:55 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 77 block(s)][0m
+[10:38:12 INFO]: mumerfarooq issued server command: /fill -75 67 -227 -65 67 -233 minecraft:air
+[10:38:12 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 77 block(s)][0m
+[10:38:26 INFO]: mumerfarooq issued server command: /fill -75 68 -227 -65 68 -233 minecraft:air
+[10:38:26 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 5 block(s)][0m
+[10:38:36 INFO]: mumerfarooq issued server command: /fill -75 68 -227 -65 68 -233 minecraft:black_s
+[10:38:41 INFO]: mumerfarooq issued server command: /fill -75 68 -227 -65 68 -233 minecraft:black_stained_glass
+[10:38:41 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 77 block(s)][0m
+[10:42:29 INFO]: mumerfarooq issued server command: /fill -65 68 -218
+[10:43:16 INFO]: mumerfarooq issued server command: /fill -77 67 -233
+[10:43:44 INFO]: mumerfarooq issued server command: /fill -77 67 -233 -65 68 -218 minecraft:air
+[10:43:44 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 302 block(s)][0m
+[10:44:25 INFO]: mumerfarooq issued server command: /fill -77 68 -233 -65 68 -218 minecraft:oak_trapdoor
+[10:44:25 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[10:46:04 INFO]: mumerfarooq issued server command: /fill -65 67 -221
+[10:46:40 INFO]: mumerfarooq issued server command: /fill -65 69 -221 -77 69 -233 minecraft:black_stained_glass
+[10:46:40 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 169 block(s)][0m
+[10:47:05 INFO]: mumerfarooq issued server command: /fill -65 69 -221 -77 69 -233 minecraft:air
+[10:47:05 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 163 block(s)][0m
+[10:47:33 INFO]: mumerfarooq issued server command: /fill -65 70 -221 -77 70 -233 minecraft:black_stained_glass
+[10:47:33 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 169 block(s)][0m
+[10:47:45 INFO]: mumerfarooq issued server command: /fill -65 70 -221 -77 70 -233 minecraft:black_stained_glass
+[10:48:06 INFO]: mumerfarooq issued server command: /fill -65 70 -221 -77 70 -233 minecraft:oak_trapdoor
+[10:48:06 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 169 block(s)][0m
+[10:48:22 INFO]: mumerfarooq issued server command: /fill -65 70 -221 -77 70 -233 minecraft:air
+[10:48:22 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 169 block(s)][0m
+[10:50:17 INFO]: mumerfarooq issued server command: /fill -65 70 -218
+[10:50:39 INFO]: mumerfarooq issued server command: /fill -65 70 -218 -77 70 -233 minecraft:black_stained_glass
+[10:50:39 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 206 block(s)][0m
+[10:51:34 INFO]: mumerfarooq issued server command: /fill -77 73 -218
+[10:51:47 INFO]: mumerfarooq issued server command: /fill -77 73 -218 -65 73 -233 minecraft:oak_trapdoor
+[10:51:47 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[10:52:05 INFO]: mumerfarooq issued server command: /fill -77 73 -218 -65 73 -233 minecraft:oak_trapdoor
+[10:52:05 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 4 block(s)][0m
+[11:06:58 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:06:58 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:07:01 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:07:01 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:17:11 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:17:11 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:18:45 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:18:45 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:26:21 INFO]: mumerfarooq issued server command: /time set 0
+[11:26:21 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[11:27:41 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:27:41 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:28:01 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:28:01 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:33:43 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:33:43 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:34:10 INFO]: mumerfarooq issued server command: /gamemode spectator
+[11:34:10 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[11:34:47 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:34:47 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:34:50 INFO]: mumerfarooq issued server command: /gamemode spectator
+[11:34:50 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[11:34:56 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:34:56 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:35:11 INFO]: mumerfarooq issued server command: /gamemode spectator
+[11:35:11 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[11:35:18 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:35:18 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:47:22 INFO]: mumerfarooq issued server command: /gamemode spectator
+[11:47:22 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[11:50:07 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:50:07 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:56:23 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:56:23 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:56:24 INFO]: mumerfarooq lost connection: Disconnected
+[11:56:24 INFO]: [38;5;11mmumerfarooq left the game[0m
+[15:30:58 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[15:30:58 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[15:30:58 INFO]: mumerfarooq[/139.135.52.212:58944] logged in with entity id 53498 at ([world]-79.54938623913685, 58.0, -225.85095603151944)
+[15:31:17 INFO]: mumerfarooq issued server command: /gamemode creative
+[15:31:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[15:37:06 INFO]: mumerfarooq issued server command: /time set 0
+[15:37:06 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[15:45:00 INFO]: mumerfarooq issued server command: /fill -65 72 -233
+[15:45:22 INFO]: mumerfarooq issued server command: /fill -65 72 -233 -76 72 -218 minecraft:air
+[15:45:22 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 169 block(s)][0m
+[15:45:33 INFO]: mumerfarooq issued server command: /fill -65 73 -233 -76 73 -218 minecraft:air
+[15:45:33 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 158 block(s)][0m
+[15:45:41 INFO]: mumerfarooq issued server command: /fill -65 73 -233 -76 78 -218 minecraft:air
+[15:45:41 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 10 block(s)][0m
+[15:47:19 INFO]: mumerfarooq issued server command: /fill -77 71 -233
+[15:47:37 INFO]: mumerfarooq issued server command: /fill -77 71 -233 -65 71 -218 minecraft:tinted_glass
+[15:47:37 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[15:48:04 INFO]: mumerfarooq issued server command: /fill -77 71 -233 -65 71 -218 minecraft:black_stained_glass
+[15:48:04 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[15:48:18 INFO]: mumerfarooq issued server command: /time set 0
+[15:48:18 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[15:49:29 INFO]: mumerfarooq issued server command: /gamemode survival
+[15:49:29 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[15:52:51 INFO]: mumerfarooq issued server command: /time set night
+[15:52:51 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 13000][0m
+[15:53:21 INFO]: mumerfarooq fell from a high place
+[15:53:43 INFO]: mumerfarooq issued server command: /gamemode creative
+[15:53:43 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[15:53:55 INFO]: mumerfarooq issued server command: /gamemode survival
+[15:53:55 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[15:57:35 INFO]: mumerfarooq issued server command: /gamemode creative
+[15:57:35 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[15:59:11 INFO]: mumerfarooq issued server command: /fill -76 64 -218
+[16:00:29 INFO]: mumerfarooq issued server command: /fill -76 65 -218 -66 65 -233 minecraft:black_stained_glass replace #minecraft:acacia_logs
+[16:00:44 INFO]: mumerfarooq issued server command: /fill -76 65 -218 -66 65 -233 minecraft:black_stained_glass replace #minecraft:spruce_planks
+[16:01:01 INFO]: mumerfarooq issued server command: /fill -76 65 -218 -66 65 -233 minecraft:black_stained_glass replace minecraft:spruce_planks
+[16:01:22 INFO]: mumerfarooq issued server command: /fill -62 63 -241
+[16:01:38 INFO]: mumerfarooq issued server command: /fill -62 63 -241 -60 63 -240 minecraft:black_stained_glass replace minecraft:spruce_planks
+[16:01:48 INFO]: mumerfarooq issued server command: /fill -62 62 -241 -60 62 -240 minecraft:black_stained_glass replace minecraft:spruce_planks
+[16:02:13 INFO]: mumerfarooq issued server command: /fill -62 62 -241 -60 62 -240 minecraft:black_stained_glass replace #minecraft:acacia_logs
+[16:02:19 INFO]: mumerfarooq issued server command: /fill -62 62 -241 -60 62 -240 minecraft:black_stained_glass replace minecraft:air
+[16:02:49 INFO]: mumerfarooq issued server command: /fill -62 62 -241 -60 62 -240 minecraft:black_stained_glass
+[16:02:49 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[16:03:02 INFO]: mumerfarooq issued server command: /fill -62 62 -241 -60 62 -240 minecraft:sand
+[16:03:02 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[16:03:13 INFO]: mumerfarooq issued server command: /fill -63 62 -241
+[16:03:21 INFO]: mumerfarooq issued server command: /fill -63 62 -241 -68 62 -245 minecraft:sand
+[16:03:21 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 23 block(s)][0m
+[16:03:30 INFO]: mumerfarooq issued server command: /fill -63 62 -241 -68 52 -245 minecraft:sand
+[16:03:30 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 234 block(s)][0m
+[16:04:04 INFO]: mumerfarooq issued server command: /fill -76 65 -219
+[16:04:37 INFO]: mumerfarooq issued server command: /fill -76 65 -219 -66 65 -232 minecraft:spruce_planks
+[16:04:37 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 154 block(s)][0m
+[16:05:16 INFO]: mumerfarooq issued server command: /time set 0
+[16:05:16 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[16:05:32 INFO]: mumerfarooq issued server command: /fill -76 68 -219
+[16:05:47 INFO]: mumerfarooq issued server command: /fill -76 68 -219 -66 68 -232 minecraft:spruce_planks
+[16:05:47 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 154 block(s)][0m
+[16:14:38 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:14:38 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:15:10 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:15:10 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:19:06 INFO]: mumerfarooq issued server command: /fill -77 71 -218
+[16:19:18 INFO]: mumerfarooq issued server command: /fill -77 71 -218 -65 71 -233 minecraft:spruce_planks
+[16:19:18 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[16:22:23 INFO]: mumerfarooq issued server command: /fill -77 72 -218 -65 72 -233 minecraft:spruce_planks
+[16:22:23 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[16:22:38 INFO]: mumerfarooq issued server command: /fill -77 72 -218 -65 72 -233 minecraft:spruce_trapdoor
+[16:22:38 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 208 block(s)][0m
+[16:23:27 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:23:27 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:23:58 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:23:58 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:24:08 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:24:08 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:25:50 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:25:50 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:30:16 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:30:16 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:36:30 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:36:30 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:36:40 INFO]: mumerfarooq issued server command: /weather clear
+[16:36:40 INFO]: [3m[38;5;7m[mumerfarooq: Set the weather to clear][0m
+[16:36:48 INFO]: mumerfarooq issued server command: /time 0
+[16:36:56 INFO]: mumerfarooq issued server command: /time set -
+[16:36:58 INFO]: mumerfarooq issued server command: /time set 0
+[16:36:58 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[16:42:21 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:42:21 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:42:25 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:42:25 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:44:13 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:44:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:44:15 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:44:15 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:44:30 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:44:30 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:47:23 INFO]: mumerfarooq issued server command: /gamemode creative
+[16:47:23 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[16:48:24 INFO]: mumerfarooq issued server command: /gamemode adventure
+[16:48:24 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Adventure Mode][0m
+[16:58:14 INFO]: mumerfarooq lost connection: Disconnected
+[16:58:14 INFO]: [38;5;11mmumerfarooq left the game[0m
+[16:58:18 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[16:58:18 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[16:58:18 INFO]: mumerfarooq[/139.135.52.212:60075] logged in with entity id 63419 at ([world]-82.35491623964269, 63.0, -216.40086392293685)
+[16:58:21 INFO]: mumerfarooq issued server command: /gamemode survival
+[16:58:21 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[16:58:28 INFO]: mumerfarooq lost connection: Disconnected
+[16:58:28 INFO]: [38;5;11mmumerfarooq left the game[0m
+[07:02:31 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[07:02:31 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[07:02:31 INFO]: mumerfarooq[/139.135.52.212:2127] logged in with entity id 63624 at ([world]-81.26904236482886, 63.0, -232.10143134744544)
+[07:03:04 INFO]: mumerfarooq issued server command: /gamemode adventure
+[07:03:04 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Adventure Mode][0m
+[07:03:12 INFO]: mumerfarooq issued server command: /gamemode creative
+[07:03:12 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[07:04:25 INFO]: mumerfarooq issued server command: /fill -77 70 -218
+[07:04:40 INFO]: mumerfarooq issued server command: /fill -77 70 -218 -65 63 -218 minecraft:stone
+[07:04:40 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 102 block(s)][0m
+[07:04:52 INFO]: mumerfarooq issued server command: /fill -65 63 -219
+[07:05:01 INFO]: mumerfarooq issued server command: /fill -65 63 -219 -65 70 -222 minecraft:stone
+[07:05:01 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 32 block(s)][0m
+[07:05:11 INFO]: mumerfarooq issued server command: /fill -65 70 -229
+[07:05:21 INFO]: mumerfarooq issued server command: /fill -65 70 -229 -65 63 -233 minecraft:stone
+[07:05:21 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 40 block(s)][0m
+[07:05:26 INFO]: mumerfarooq issued server command: /fill -66 63 -233
+[07:05:36 INFO]: mumerfarooq issued server command: /fill -66 63 -233 -77 70 -233 minecraft:stone
+[07:05:36 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 96 block(s)][0m
+[07:07:07 INFO]: mumerfarooq issued server command: /fill -66 70 -223
+[07:07:12 INFO]: mumerfarooq issued server command: /fill -66 70 -223 -66 63 -223 minecraft:stone
+[07:07:12 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[07:07:16 INFO]: mumerfarooq issued server command: /fill -67 63 -224
+[07:07:30 INFO]: mumerfarooq issued server command: /fill -67 63 -224 -67 70 -224 minecraft:stone
+[07:07:30 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:07:34 INFO]: mumerfarooq issued server command: /time set 0
+[07:07:34 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[07:07:38 INFO]: mumerfarooq issued server command: /fill -68 70 -225
+[07:07:53 INFO]: mumerfarooq issued server command: /fill -69 63 -226 -69 63 -226 minecraft:stone
+[07:07:53 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 1 block(s)][0m
+[07:08:13 INFO]: mumerfarooq issued server command: /fill -68 70 -225 -69 63 -226 minecraft:stone
+[07:08:13 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 29 block(s)][0m
+[07:08:19 INFO]: mumerfarooq issued server command: /fill -67 70 -227
+[07:08:25 INFO]: mumerfarooq issued server command: /fill -67 70 -227 -67 63 -227 minecraft:stone
+[07:08:25 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[07:08:28 INFO]: mumerfarooq issued server command: /fill -66
+[07:08:31 INFO]: mumerfarooq issued server command: /fill -66 63 -228
+[07:08:42 INFO]: mumerfarooq issued server command: /fill -66 63 -228 -66 70 -228 minecraft:stone
+[07:08:42 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[07:09:30 INFO]: mumerfarooq issued server command: /fill -77 70 -229
+[07:09:40 INFO]: mumerfarooq issued server command: /fill -77 70 -229 -77 64 -229 minecraft:stone
+[07:09:40 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 5 block(s)][0m
+[07:09:50 INFO]: mumerfarooq issued server command: /fill -77 68 -230
+[07:10:04 INFO]: mumerfarooq issued server command: /fill -77 68 -230 -77 63 -230 minecraft:stone
+[07:10:04 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 6 block(s)][0m
+[07:10:17 INFO]: mumerfarooq issued server command: /fill -76 64 -228
+[07:10:28 INFO]: mumerfarooq issued server command: /fill -76 64 -228 -76 70 -228 minecraft:stone
+[07:10:28 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 5 block(s)][0m
+[07:10:33 INFO]: mumerfarooq issued server command: /fill -75 70 -227
+[07:10:41 INFO]: mumerfarooq issued server command: /fill -75 70 -227 -75 64 -227 minecraft:stone
+[07:10:41 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 5 block(s)][0m
+[07:10:59 INFO]: mumerfarooq issued server command: /fill -75 63 -226
+[07:11:10 INFO]: mumerfarooq issued server command: /fill -75 63 -226 -73 70 -225 minecraft:stone
+[07:11:10 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 46 block(s)][0m
+[07:11:41 INFO]: mumerfarooq issued server command: /fill -75 63 -224
+[07:11:48 INFO]: mumerfarooq issued server command: /fill -75 63 -224 -75 70 -224 minecraft:stone
+[07:11:48 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:11:57 INFO]: mumerfarooq issued server command: /fill -76 63 -223
+[07:12:02 INFO]: mumerfarooq issued server command: /fill -76 63 -223 -76 70 -223 minecraft:stone
+[07:12:02 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:12:11 INFO]: mumerfarooq issued server command: /fill -77 63 -222
+[07:12:24 INFO]: mumerfarooq issued server command: /fill -77 63 -222 -77 70 -219 minecraft:stone
+[07:12:24 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 32 block(s)][0m
+[07:12:41 INFO]: mumerfarooq issued server command: /fill -68 63 -225
+[07:12:58 INFO]: mumerfarooq issued server command: /fill -68 63 -225 -69 70 -226 minecraft:oak_planks
+[07:12:58 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 32 block(s)][0m
+[07:13:14 INFO]: mumerfarooq issued server command: /fill -68 63 -225 -69 70 -226 minecraft:spruce_log
+[07:13:14 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 32 block(s)][0m
+[07:13:31 INFO]: mumerfarooq issued server command: /fill -66 63 -223
+[07:13:41 INFO]: mumerfarooq issued server command: /fill -66 63 -223 -66 70 -223 minecraft:spruce_planks
+[07:13:41 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:13:47 INFO]: mumerfarooq issued server command: /fill -67 70 -224
+[07:14:01 INFO]: mumerfarooq issued server command: /fill -67 70 -224 -67 63 -224 minecraft:spruce_planks
+[07:14:01 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:14:19 INFO]: mumerfarooq issued server command: /fill -67 63 -227 -67 70 -227 minecraft:spruce_planks
+[07:14:19 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:14:33 INFO]: mumerfarooq issued server command: /fill -66 63 -228 -66 70 -228 minecraft:spruce_planks
+[07:14:33 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:15:01 INFO]: mumerfarooq issued server command: /fill -65 63 -233 -65 70 -233 minecraft:spruce_log
+[07:15:01 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:15:15 INFO]: mumerfarooq issued server command: /fill -65 63 -233 -65 70 -233 minecraft:spruce_log
+[07:15:32 INFO]: mumerfarooq issued server command: /fill -65 63 -218 -65 63 -218 minecraft:spruce_log
+[07:15:32 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 1 block(s)][0m
+[07:15:40 INFO]: mumerfarooq issued server command: /fill -65 63 -218 -65 70 -218 minecraft:spruce_log
+[07:15:40 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 7 block(s)][0m
+[07:16:11 INFO]: mumerfarooq issued server command: /fill -77 63 -218 -77 70 -218 minecraft:spruce_log
+[07:16:11 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:17:42 INFO]: mumerfarooq lost connection: Disconnected
+[07:17:42 INFO]: [38;5;11mmumerfarooq left the game[0m
+[07:31:20 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[07:31:20 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[07:31:20 INFO]: mumerfarooq[/139.135.52.212:56300] logged in with entity id 65491 at ([world]-78.31544066651604, 64.0, -223.99287121686305)
+[07:32:05 INFO]: mumerfarooq issued server command: /fill -76 63 -228 -76 70 -228 minecraft:spruce_planks
+[07:32:05 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:32:20 INFO]: mumerfarooq issued server command: /fill -77 62 -229 -77 70 -229 minecraft:spruce_log
+[07:32:20 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 9 block(s)][0m
+[07:32:46 INFO]: mumerfarooq issued server command: /fill -76 63 -228 -76 70 -228 minecraft:stone
+[07:32:46 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:32:52 INFO]: mumerfarooq issued server command: /fill -77 62 -229 -77 70 -229 minecraft:stone
+[07:32:52 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 9 block(s)][0m
+[07:33:04 INFO]: mumerfarooq issued server command: /fill -76 63 -228 -76 70 -228 minecraft:spruce_log
+[07:33:04 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:33:21 INFO]: mumerfarooq issued server command: /fill -75 63 -227 -75 70 -227 minecraft:spruce_planks
+[07:33:21 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:33:54 INFO]: mumerfarooq issued server command: /fill -74 63 -226 -74 70 -226 spruce
+[07:34:18 INFO]: mumerfarooq issued server command: /fill -74 63 -226 -73 70 -225 spruce
+[07:34:24 INFO]: mumerfarooq issued server command: /fill -74 63 -226 -73 70 -225 minecraft:spruce_log
+[07:34:24 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 32 block(s)][0m
+[07:34:28 INFO]: mumerfarooq issued server command: /time set 0
+[07:34:28 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[07:34:35 INFO]: mumerfarooq issued server command: /weather clear
+[07:34:35 INFO]: [3m[38;5;7m[mumerfarooq: Set the weather to clear][0m
+[07:34:52 INFO]: mumerfarooq issued server command: /fill -75 63 -224 -75 70 -224 minecraft:spruce_planks
+[07:34:52 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:35:23 INFO]: mumerfarooq issued server command: /fill -77 63 -233 -77 70 -233 minecraft:spruce_log
+[07:35:23 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:38:32 INFO]: mumerfarooq issued server command: /fill -71 63 -233 -71 70 -233 minecraft:spruce_log
+[07:38:32 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 8 block(s)][0m
+[07:38:39 INFO]: mumerfarooq issued server command: /fill -71 63 -233 -71 71 -233 minecraft:spruce_log
+[07:38:39 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 1 block(s)][0m
+[07:39:03 INFO]: mumerfarooq issued server command: /fill -71 63 -218 -71 71 -218 minecraft:spruce_log
+[07:39:03 INFO]: [3m[38;5;7m[mumerfarooq: Successfully filled 9 block(s)][0m
+[07:39:08 INFO]: mumerfarooq issued server command: /gamemode survival
+[07:39:08 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[07:39:14 INFO]: mumerfarooq issued server command: /gamemode creative
+[07:39:14 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[07:40:34 INFO]: mumerfarooq issued server command: /gamemode survival
+[07:40:34 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[08:08:11 INFO]: mumerfarooq lost connection: Disconnected
+[08:08:11 INFO]: [38;5;11mmumerfarooq left the game[0m
+[08:20:01 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[08:20:02 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[08:20:02 INFO]: mumerfarooq[/139.135.52.212:2803] logged in with entity id 68603 at ([world]-72.30000001192093, 170.5625, -232.53208159228927)
+[08:22:05 INFO]: mumerfarooq lost connection: Disconnected
+[08:22:05 INFO]: [38;5;11mmumerfarooq left the game[0m
+[20:18:50 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[20:18:51 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[20:18:51 INFO]: mumerfarooq[/139.135.52.212:5939] logged in with entity id 69151 at ([world]-94.13362943917933, 63.0, -222.07378969133651)
+[20:26:49 INFO]: mumerfarooq lost connection: Disconnected
+[20:26:49 INFO]: [38;5;11mmumerfarooq left the game[0m
+[21:58:15 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[21:58:16 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[21:58:16 INFO]: mumerfarooq[/139.135.52.212:10967] logged in with entity id 70146 at ([world]-45.0773065742272, 63.0, -215.6190801754873)
+[21:59:02 INFO]: mumerfarooq lost connection: Disconnected
+[21:59:02 INFO]: [38;5;11mmumerfarooq left the game[0m
+[22:03:07 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[22:03:08 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[22:03:08 INFO]: mumerfarooq[/139.135.52.212:63510] logged in with entity id 70283 at ([world]-42.51744995593931, 63.0, -226.72384357852908)
+[22:03:26 INFO]: mumerfarooq issued server command: /whitelist add madara_uchiha_69
+[22:03:26 INFO]: [3m[38;5;7m[mumerfarooq: Added madara_uchiha_69 to the whitelist][0m
+[22:04:21 INFO]: mumerfarooq issued server command: /gamemode creative
+[22:04:21 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[22:04:23 INFO]: mumerfarooq issued server command: /gamemode survival
+[22:04:23 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[22:04:55 INFO]: mumerfarooq issued server command: /gamemode spectator
+[22:04:55 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[22:05:42 INFO]: mumerfarooq issued server command: /gamemode survival
+[22:05:42 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[22:06:13 INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[22:06:13 INFO]: [38;5;11mmadara_uchiha_69 joined the game[0m
+[22:06:13 INFO]: madara_uchiha_69[/202.77.138.195:60551] logged in with entity id 70727 at ([world]-32.52954357273007, 65.0, -248.32788167445938)
+[22:06:20 INFO]: madara_uchiha_69 lost connection: Disconnected
+[22:06:20 INFO]: [38;5;11mmadara_uchiha_69 left the game[0m
+[22:07:08 INFO]: mumerfarooq issued server command: /whitelist add madara_uchiha_69
+[22:07:26 INFO]: mumerfarooq lost connection: Disconnected
+[22:07:26 INFO]: [38;5;11mmumerfarooq left the game[0m
+[22:10:21 INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[22:10:21 INFO]: [38;5;11mmadara_uchiha_69 joined the game[0m
+[22:10:21 INFO]: madara_uchiha_69[/202.77.138.195:60681] logged in with entity id 70853 at ([world]-32.52954357273007, 65.0, -248.32788167445938)
+[22:16:33 INFO]: madara_uchiha_69 lost connection: Disconnected
+[22:16:33 INFO]: [38;5;11mmadara_uchiha_69 left the game[0m
+[22:32:43 INFO]: UUID of player madara_uchiha_69 is 28312261-c1e6-4960-9d96-10ff09f283c0
+[22:32:44 INFO]: [38;5;11mmadara_uchiha_69 joined the game[0m
+[22:32:44 INFO]: madara_uchiha_69[/202.77.138.195:60883] logged in with entity id 72113 at ([world]-31.28085762654673, 65.0, -248.94875894490582)
+[22:36:21 INFO]: madara_uchiha_69 lost connection: Disconnected
+[22:36:21 INFO]: [38;5;11mmadara_uchiha_69 left the game[0m
+[09:43:31 INFO]: UUID of player mumerfarooq is b147aa9e-0106-4abf-b9e1-f9f5ca14f73a
+[09:43:32 INFO]: [38;5;11mmumerfarooq joined the game[0m
+[09:43:32 INFO]: mumerfarooq[/139.135.52.212:12681] logged in with entity id 72904 at ([world]-73.76439888246247, 64.0, -193.80705799747517)
+[09:43:45 INFO]: mumerfarooq issued server command: /logs
+[09:44:30 INFO]: mumerfarooq issued server command: /gamemode spectator
+[09:44:30 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[09:44:59 INFO]: mumerfarooq issued server command: /gamemode creative
+[09:44:59 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[09:45:12 INFO]: mumerfarooq issued server command: /gamemode spectator
+[09:45:12 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[09:45:17 INFO]: mumerfarooq issued server command: /gamemode survival
+[09:45:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[09:53:09 INFO]: mumerfarooq issued server command: /gamemode spectator
+[09:53:09 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[09:53:12 INFO]: mumerfarooq issued server command: /gamemode survival
+[09:53:12 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[09:53:40 INFO]: mumerfarooq issued server command: /time set night
+[09:53:40 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 13000][0m
+[09:59:54 INFO]: mumerfarooq issued server command: /gamemode spectator
+[09:59:54 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[09:59:58 INFO]: mumerfarooq issued server command: /gamemode creative
+[09:59:58 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:00:14 INFO]: mumerfarooq issued server command: /gamemode spectator
+[10:00:14 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Spectator Mode][0m
+[10:00:17 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:00:17 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:00:55 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:00:55 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:01:02 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:01:02 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:02:45 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:02:45 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:04:04 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:04:04 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:06:04 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:06:04 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:07:00 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:07:00 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:13:36 INFO]: mumerfarooq issued server command: /time set 0
+[10:13:36 INFO]: [3m[38;5;7m[mumerfarooq: Set the time to 0][0m
+[10:26:46 INFO]: Villager EntityVillager['Villager'/133, uuid='b67d9cbe-f979-4ed3-83dd-8bf1c9e05987', l='ServerLevel[world]', x=3.69, y=70.19, z=-150.49, cpos=[0, -10], tl=672677, v=true] died, message: 'Villager was killed by Witch using magic'
+[10:38:44 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:38:44 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:38:58 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:38:58 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:40:41 INFO]: mumerfarooq has made the advancement [38;5;10m[Local Brewery][0m
+[10:44:19 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:44:19 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:44:43 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:44:43 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:45:07 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:45:07 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:45:13 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:45:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:46:44 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:46:44 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:47:11 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:47:11 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:47:13 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:47:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[10:52:54 INFO]: mumerfarooq issued server command: /gamemode survival
+[10:52:54 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[10:56:52 INFO]: mumerfarooq issued server command: /gamemode creative
+[10:56:52 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:21:55 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:21:55 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:22:19 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:22:19 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:24:01 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:24:01 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:25:13 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:25:13 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:27:52 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:27:52 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:30:09 INFO]: mumerfarooq issued server command: /gamemode creative
+[11:30:09 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Creative Mode][0m
+[11:33:42 INFO]: mumerfarooq issued server command: /gamemode survival
+[11:33:42 INFO]: [3m[38;5;7m[mumerfarooq: Set own game mode to Survival Mode][0m
+[11:38:05 INFO]: mumerfarooq lost connection: Disconnected
+[11:38:05 INFO]: [38;5;11mmumerfarooq left the game[0m
