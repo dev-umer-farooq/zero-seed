@@ -1,3 +1,1 @@
-nohup java -Xms1G -Xmx5G -jar paper.jar > output.log 2>&1 &
-
-screen -S MinecraftServer -dm java -Xms1G -Xmx5G -jar paper.jar
+screen -S MCS -dm java -Xms3G -Xmx5G -XX:+UseG1GC -jar paper.jar nogui
